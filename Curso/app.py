@@ -32,3 +32,11 @@ x = z
 print(x, y, z) # prints: Green Green Green
 #=============================================================
 
+#Tipagem Dinâmica (Dynamic typing)
+#A função "type()" retorna os tipos de dados (também conhecidos como "classe")
+centena = 100
+print(centena, type(centena)) # prints: 100 <class 'int'>
+centena = "North"
+print(centena, type(centena)) # prints: North <class 'str'>
+
+
