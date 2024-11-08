@@ -2,4 +2,4 @@
     Curso da linguagem Python
 =========================================================================================
 ## Capitulo 1
-    Introdução à programação procedural
+    *Introdução à programação procedural
