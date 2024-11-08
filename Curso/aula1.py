@@ -44,4 +44,25 @@ centena = "North"
 print(centena, type(centena)) # prints: North <class 'str'>
 #=============================================================================
 
+#Tipos de dados de coleção
+
+#Tupla pode ser criada de parenteses e virgula "()", são imutaveis, ou seja, uma vez criada não pode ser modificada.
+#Listas pode ser criada de colchetes "[]", são mutaveis, ou seja, pode ser modificada.
+
+#Tupla
+print("Demanda", "Teste", "Planeta")    #prints: Demanda Teste Planeta
+print('Casa', 'Carro', 'Moto')          #prints: Casa Carro Moto
+
+#Lista
+print([1, 2, 3, 4, 5])
+print(['Apha', 'Bravo', 'Valente'])
+print(['Zebra', 49, "Relógio", -540])
+
+#Função len() = Toma um unico item de dados com seus argumentos e retorna o "Tamanho" do item como um int.
+
+print(len([1, 8, 15, "Casa"]))  #prints: 4
+print(len("paralelepipado"))    #prints: 14
+
+
+
 
