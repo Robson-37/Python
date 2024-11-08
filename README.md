@@ -3,5 +3,5 @@
 =========================================================================================
 ## Capitulo 1
 <!--ts-->
-    * [Introdução à programação procedural]
+    * Introdução à programação procedural
 <!--te-->
