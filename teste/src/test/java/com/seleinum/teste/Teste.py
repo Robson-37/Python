@@ -24,11 +24,11 @@ class TesteSelenium(unittest.TestCase):
 
     def tirar_print(self):
        self.imagem = pyautogui.screenshot()
-       self.imagem.save('C:/Users/robso/OneDrive/Documentos/CursoPython/Python/teste/img/print.png')
+       self.imagem.save('C:/Users/robso/OneDrive/Documentos/CursoPython/Python/teste/img/'f'screenshot_{time.strftime("%Y-%m-%d_%H-%M-%S")}.png')
    
 
     def tearDown(self):
         self.driver.quit()
-        
+
 if __name__=='__main__':
  unittest.main()
