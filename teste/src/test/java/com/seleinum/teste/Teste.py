@@ -3,6 +3,7 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC 
+from selenium.webdriver.common import by
 import time
 import pyautogui
 import pyscreeze
@@ -23,6 +24,11 @@ class TesteSelenium(unittest.TestCase):
         time.sleep(5)
         self.capturar()
 
+    def element_id(driver, ):
+        driver.find_element(by.CLASS_NAME, "truncate").send_keys("pYTHON" )
+        time.sleep(3)
+   
+        
     def capturar(self):
        self.imagem = pyautogui.screenshot()
        self.imagem.save('C:/Users/robso/OneDrive/Documentos/CursoPython/Python/teste/img/'f'screenshot_{time.strftime("%Y-%m-%d_%H-%M-%S")}.png')
