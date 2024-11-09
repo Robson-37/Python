@@ -7,6 +7,7 @@ import time
 import pyautogui
 import pyscreeze
 
+
 class TesteSelenium(unittest.TestCase):
 
     def setUp(self):
@@ -20,13 +21,12 @@ class TesteSelenium(unittest.TestCase):
     def test_google(self):
         self.driver.get("https://www.google.com.br")
         time.sleep(5)
-        self.tirar_print()
+        self.capturar()
 
-    def tirar_print(self):
+    def capturar(self):
        self.imagem = pyautogui.screenshot()
        self.imagem.save('C:/Users/robso/OneDrive/Documentos/CursoPython/Python/teste/img/'f'screenshot_{time.strftime("%Y-%m-%d_%H-%M-%S")}.png')
    
-
     def tearDown(self):
         self.driver.quit()
 
